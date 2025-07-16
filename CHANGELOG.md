@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/xdy/itempiles-dragonbane/compare/v1.0.2...v1.0.3) (2025-07-16)
+
+
+### Bug Fixes
+
+* Set the supported system to dragonbane ([a24c8e9](https://github.com/xdy/itempiles-dragonbane/commit/a24c8e9b5b2f4f7c486fe1212aba3b50f51a5fcc))
+
 ## [1.0.2](https://github.com/xdy/itempiles-dragonbane/compare/v1.0.1...v1.0.2) (2025-07-16)
 
 
