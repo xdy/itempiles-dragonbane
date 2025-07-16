@@ -2,7 +2,7 @@
   "id": "itempiles-dragonbane",
   "title": "Item Piles: Dragonbane / Drakar och Demoner",
   "description": "This module adds support for the Dragonbane / Drakar och Demoner system within the Item Piles module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "library": "false",
   "compatibility": {
     "minimum": "12",
