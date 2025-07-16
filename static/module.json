@@ -21,6 +21,17 @@
     "itempiles-dragonbane.js"
   ],
   "relationships": {
+    "systems": [
+      {
+        "id": "dragonbane",
+        "type": "system",
+        "manifest": "https://github.com/pafvel/dragonbane/releases/download/v2.5/system.json",
+        "compatibility": {
+          "minimum": "2.5",
+          "verified": "2.5"
+        }
+      }
+    ],
     "requires": [
       {
         "id": "item-piles",
