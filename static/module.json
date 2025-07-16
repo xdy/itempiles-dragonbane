@@ -2,7 +2,7 @@
   "id": "itempiles-dragonbane",
   "title": "Item Piles: Dragonbane / Drakar och Demoner",
   "description": "This module adds support for the Dragonbane / Drakar och Demoner system within the Item Piles module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "library": "false",
   "compatibility": {
     "minimum": "12",
@@ -35,7 +35,7 @@
   },
   "url": "https://github.com/xdy/itempiles-dragonbane",
   "manifest": "https://github.com/xdy/itempiles-dragonbane/releases/latest/download/module.json",
-  "download": "https://github.com/xdy/itempiles-dragonbane/releases/latest/download/itempiles-dragonbane.zip",
+  "download": "https://github.com/xdy/itempiles-dragonbane/releases/download/v1.0.2/itempiles-dragonbane.zip",
   "readme": "https://github.com/xdy/itempiles-dragonbane/blob/main/README.md",
   "bugs": "https://github.com/xdy/itempiles-dragonbane/issues"
 }
