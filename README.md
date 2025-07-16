@@ -74,3 +74,4 @@ Dragonbane / Drakar och Demoner third-party license:
 <img src="static/assets/media/dragonbane-licenslogo-rod.webp" width="45%" alt="Dragonbane compatibility logo">
 <!--suppress CheckImageSize -->
 <img src="static/assets/media/drakar-och-demoner-licenslogo-rod.webp" width="45%" alt="Drakar och Demoner kompatibilitetslogga">
+
