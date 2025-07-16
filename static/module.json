@@ -1,0 +1,41 @@
+{
+  "id": "itempiles-dragonbane",
+  "title": "Item Piles: Dragonbane / Drakar och Demoner",
+  "description": "This module adds support for the Dragonbane / Drakar och Demoner system within the Item Piles module",
+  "version": "1.0.0",
+  "library": "false",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Jonas Karlsson (xdy)",
+      "url": "https://gnu.xdy.se/home",
+      "discord": "xdy#3735",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "itempiles-dragonbane.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "item-piles",
+        "type": "module",
+        "manifest": "https://github.com/xdy/FoundryVTT-ItemPiles/releases/latest/download/manifest.json",
+        "compatibility": {
+          "minimum": "3.2.16",
+          "verified": "3.2.16"
+        }
+      }
+    ]
+  },
+  "url": "https://github.com/xdy/itempiles-dragonbane",
+  "manifest": "https://github.com/xdy/itempiles-dragonbane/releases/latest/download/manifest.json",
+  "download": "https://github.com/xdy/itempiles-dragonbane/releases/latest/download/module.zip",
+  "readme": "https://github.com/xdy/itempiles-dragonbane/blob/main/README.md",
+  "bugs": "https://github.com/xdy/itempiles-dragonbane/issues"
+}

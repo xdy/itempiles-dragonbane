@@ -1,0 +1,49 @@
+{
+  "name": "itempiles-dragonbane",
+  "type": "module",
+  "description": "This module adds support for the Dragonbane / Drakar och Demoner system within the Item Piles module",
+  "packageManager": "yarn@4.9.2",
+  "main": "dist/itempiles-dragonbane.js",
+  "module": "dist/itempiles-dragonbane.js",
+  "exports": {
+    ".": {
+      "import": "./dist/itempiles-dragonbane.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "build:watch": "vite build --watch --mode development",
+    "clean": "rimraf dist .cache",
+    "clean:link": "node ./tools/link-project.js --clean",
+    "format": "prettier -w .",
+    "link-project": "node ./tools/link-project.js",
+    "lint": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1.3.1",
+    "@eslint/js": "^9.31.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/exec": "^7.1.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.3",
+    "@semantic-release/release-notes-generator": "^14.0.3",
+    "esbuild": "^0.25.6",
+    "eslint": "^9.31.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-import-x": "^4.16.1",
+    "eslint-plugin-tsdoc": "^0.4.0",
+    "rimraf": "^6.0.1",
+    "semantic-release": "^24.2.7",
+    "vite": "^7.0.4",
+    "vite-plugin-checker": "^0.10.0",
+    "vite-plugin-static-copy": "^3.1.1"
+  },
+  "browserslist": [
+    ">5%",
+    "not IE 11"
+  ]
+}
