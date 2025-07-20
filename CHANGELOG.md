@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/xdy/itempiles-dragonbane/compare/v1.0.4...v1.0.5) (2025-07-20)
+
+
+### Bug Fixes
+
+* Update readme ([45b1e96](https://github.com/xdy/itempiles-dragonbane/commit/45b1e9615b67fb59a5d76ad80d46dbcf73c4d56d))
+
 ## [1.0.4](https://github.com/xdy/itempiles-dragonbane/compare/v1.0.3...v1.0.4) (2025-07-20)
 
 
