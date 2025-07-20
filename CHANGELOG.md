@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/xdy/itempiles-dragonbane/compare/v1.0.3...v1.0.4) (2025-07-20)
+
+
+### Bug Fixes
+
+* Merchants now work properly. (If they still don't after this update, reset system specific settings in Item Piles then recreate the merchant.) ([1d57bd1](https://github.com/xdy/itempiles-dragonbane/commit/1d57bd1242130ab68fc69ce4fc25ce5c900ca073))
+
 ## [1.0.3](https://github.com/xdy/itempiles-dragonbane/compare/v1.0.2...v1.0.3) (2025-07-16)
 
 
