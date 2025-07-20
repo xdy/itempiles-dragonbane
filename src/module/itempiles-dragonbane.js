@@ -1,6 +1,8 @@
 Hooks.once("item-piles-ready", async () => {
-
-  game.itempiles.API.addSystemIntegration({
+  let gold = `{#} ${(String(game.i18n.localize("DoD.currency.gold")).toLowerCase())}`;
+  let silver = `{#} ${(String(game.i18n.localize("DoD.currency.silver")).toLowerCase())}`;
+  let copper = `{#} ${(String(game.i18n.localize("DoD.currency.copper")).toLowerCase())}`;
+  let integration = {
     // The actor class type is the type of actor that will be used for the default item pile actor that is created on first item drop.
     "ACTOR_CLASS_TYPE": "character",
 
@@ -54,7 +56,7 @@ Hooks.once("item-piles-ready", async () => {
         type: "attribute",
         name: "DoD.currency.gold",
         img: "icons/commodities/currency/coin-embossed-crown-gold.webp",
-        abbreviation: "{#}GC",
+        abbreviation: gold,
         data: {
           path: "system.currency.gc",
         },
@@ -65,7 +67,7 @@ Hooks.once("item-piles-ready", async () => {
         type: "attribute",
         name: "DoD.currency.silver",
         img: "icons/commodities/currency/coin-engraved-moon-silver.webp",
-        abbreviation: "{#}SC",
+        abbreviation: silver,
         data: {
           path: "system.currency.sc",
         },
@@ -76,7 +78,7 @@ Hooks.once("item-piles-ready", async () => {
         type: "attribute",
         name: "DoD.currency.copper",
         img: "icons/commodities/currency/coin-engraved-waves-copper.webp",
-        abbreviation: "{#}CC",
+        abbreviation: copper,
         data: {
           path: "system.currency.cc",
         },
@@ -129,5 +131,6 @@ Hooks.once("item-piles-ready", async () => {
     // This function is an optional system handler that specifically transforms an item's price into a more unified numeric format
     // "ITEM_COST_TRANSFORMER": (_item, _currencies) => {
     // },
-  });
+  };
+  game.itempiles.API.addSystemIntegration(integration);
 });
