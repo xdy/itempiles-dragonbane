@@ -25,6 +25,7 @@ an easy way to split loot between players? Do you want easy to use merchants wit
 ## What is this?
 
 This is a module that enables the Dragonbane / Drakar och Demoner Foundry system to work seamlessly with Item Piles.
+Note that you have to go to Item Piles system specific settings and do a reset to get the correct values.
 
 ### Patch Notes:
 
