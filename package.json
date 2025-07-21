@@ -39,7 +39,7 @@
     "rimraf": "^6.0.1",
     "semantic-release": "^24.2.7",
     "vite": "^7.0.5",
-    "vite-plugin-checker": "^0.10.0",
+    "vite-plugin-checker": "^0.10.1",
     "vite-plugin-static-copy": "^3.1.1"
   },
   "browserslist": [
