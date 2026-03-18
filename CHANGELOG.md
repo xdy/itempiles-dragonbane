@@ -1,3 +1,11 @@
+## [1.0.6](https://github.com/xdy/itempiles-dragonbane/compare/v1.0.5...v1.0.6) (2026-03-18)
+
+
+### Bug Fixes
+
+* Add item typ Injury to item filter ([e221431](https://github.com/xdy/itempiles-dragonbane/commit/e221431d5bab5432fa7014698abc8c27012fed79)), closes [#50](https://github.com/xdy/itempiles-dragonbane/issues/50)
+* use pnpm instead of npm in release script ([9af595c](https://github.com/xdy/itempiles-dragonbane/commit/9af595c8ec9cc48f95671e6e798930aff3807b72))
+
 ## [1.0.5](https://github.com/xdy/itempiles-dragonbane/compare/v1.0.4...v1.0.5) (2025-07-20)
 
 
