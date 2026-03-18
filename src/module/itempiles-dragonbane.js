@@ -25,7 +25,7 @@ Hooks.once("item-piles-ready", async () => {
     "ITEM_FILTERS": [
       {
         "path": "type",
-        "filters": "ability,kin,profession,skill,spell"
+        "filters": "ability,injury,kin,profession,skill,spell"
       }
     ],
 
