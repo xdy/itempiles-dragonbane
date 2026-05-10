@@ -1,3 +1,5 @@
 {
-  "dataPath": "/absolute/path/to/your/FoundryVTT/Data"
+  "dataPath": "C:\\bin\\Foundry14",
+  "moduleName": "itempiles-dragonbane",
+  "installPath": "C:\\bin\\Foundry14\\App"
 }

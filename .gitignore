@@ -27,3 +27,6 @@ debug/
 .vite-cache/
 vite.config.ts.timestamp-*-*.mjs
 /tsconfig.tsbuildinfo
+
+#This project
+foundryconfig.json
