@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/xdy/itempiles-dragonbane/compare/v1.0.6...v1.1.0) (2026-05-10)
+
+
+### Features
+
+* Support for dragonbane 4 / foundry 14 ([11afe09](https://github.com/xdy/itempiles-dragonbane/commit/11afe09b008d8e9a491bf8a9e44ff9234922f127))
+
 ## [1.0.6](https://github.com/xdy/itempiles-dragonbane/compare/v1.0.5...v1.0.6) (2026-03-18)
 
 
